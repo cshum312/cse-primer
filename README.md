@@ -1,4 +1,4 @@
-# ARA
+# ARA - Your Friendly Neighborhood Trojan Virus
 
 
 
