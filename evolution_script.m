@@ -1,6 +1,7 @@
 aug_path = "./sea_surface_temperature/";
 
 % extract all yearly folder names for iteration
+% https://de.mathworks.com/matlabcentral/answers/430202-can-i-use-fullfile-to-read-two-subfolders
 files = dir(aug_path);
 idx = [files.isdir];
 get_dir = {files(idx).name};
