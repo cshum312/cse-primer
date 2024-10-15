@@ -17,6 +17,7 @@ for k = 1:numel(l019_S)
     l019_S(k).data = readmatrix(F);
 end
 
+% calculate spatial means for polar circle data from 1850
 l850_polar_mean = [];
 for k = 1:12
     polar = [l850_S(k).data(1:24, :); l850_S(k).data(156:180, :)];
@@ -25,6 +26,7 @@ for k = 1:12
     l850_polar_mean = [l850_polar_mean, curr_mean];
 end
 
+% calculate spatial means for polar circle data from 2019
 l019_polar_mean = [];
 for k = 1:12
     polar = [l019_S(k).data(1:24, :); l019_S(k).data(156:180, :)];
@@ -33,8 +35,10 @@ for k = 1:12
     l019_polar_mean = [l019_polar_mean, curr_mean];
 end
 
+% calculate difference in spatial means per month
 mean_diff = l019_polar_mean - l850_polar_mean;
 
+% plot
 f = figure(1);
 f.Position = [100 100 1000 800];
 % account for alphabetical order during extraction
