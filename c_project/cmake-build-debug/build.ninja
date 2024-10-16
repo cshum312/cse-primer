@@ -55,12 +55,6 @@ build CMakeFiles/c_project.dir/main.cpp.o: CXX_COMPILER__c_project_unscanned_Deb
   OBJECT_DIR = CMakeFiles/c_project.dir
   OBJECT_FILE_DIR = CMakeFiles/c_project.dir
 
-build CMakeFiles/c_project.dir/csv_reader.cpp.o: CXX_COMPILER__c_project_unscanned_Debug /home/chantelle/Work/CSE_Primer/apfelschorle/c_project/csv_reader.cpp || cmake_object_order_depends_target_c_project
-  DEP_FILE = CMakeFiles/c_project.dir/csv_reader.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/c_project.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_project.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_project
@@ -69,7 +63,7 @@ build CMakeFiles/c_project.dir/csv_reader.cpp.o: CXX_COMPILER__c_project_unscann
 #############################################
 # Link the executable c_project
 
-build c_project: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/main.cpp.o CMakeFiles/c_project.dir/csv_reader.cpp.o
+build c_project: CXX_EXECUTABLE_LINKER__c_project_Debug CMakeFiles/c_project.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/c_project.dir
   POST_BUILD = :
