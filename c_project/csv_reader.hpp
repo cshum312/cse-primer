@@ -1,7 +1,3 @@
-//
-// Provided by CSE team.
-//
-
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -13,11 +9,11 @@ void write_csv(std::string file_name, const std::vector<std::vector<double>> &da
   std::ofstream csv_file(file_name); // Opens the file and associates it with an OutputFileStream
 
   if (csv_file.is_open()) {
-    for(const auto& row : data){
+    for(const auto& row : data){ 
       // for the columns we use iterators, as it makes it easy to check if were already at the end of the column
       for(auto col_iterator = row.begin(); col_iterator!= row.end(); col_iterator++){
           // iterators are bascially some kind of pointers, so we *dereference them for their value
-          csv_file << *col_iterator;
+          csv_file << *col_iterator; 
           // here we make sure, that we dont put an ugly ',' after the last column value
           if(col_iterator != row.end()-1){
             csv_file << ",";
@@ -35,7 +31,7 @@ void write_csv(std::string file_name, const std::vector<std::vector<double>> &da
  */
 std::vector<std::vector<double>> read_csv(std::string file_name) {
   std::vector<std::vector<double>> matrix{};
-  std::ifstream csv_file(file_name); // Opens the file and associates it with an InputFilestream
+  std::ifstream csv_file(file_name); // Opens the file and associates it with an InputFilestream 
   int row = 0;
   int col = 0;
 
@@ -60,3 +56,4 @@ std::vector<std::vector<double>> read_csv(std::string file_name) {
   }
   return std::vector<std::vector<double>>();
 }
+

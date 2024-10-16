@@ -3,5 +3,4 @@ project(c_project)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c_project main.cpp
-        csv_reader.cpp)
+add_executable(c_project main.cpp)
