@@ -1,0 +1,13 @@
+Monthly differences in sea ice surface area between 1850 and 2019: 
+Month:Jan || Difference: -4.06717e+06
+Month:Feb || Difference: -3.36392e+06
+Month:Mar || Difference: -4.26573e+06
+Month:Apr || Difference: -5.7427e+06
+Month:May || Difference: -8.02294e+06
+Month:Jun || Difference: -9.04875e+06
+Month:Jul || Difference: -1.31379e+07
+Month:Aug || Difference: -1.81097e+07
+Month:Sep || Difference: -1.62206e+07
+Month:Oct || Difference: -1.32869e+07
+Month:Nov || Difference: -5.02301e+06
+Month:Dec || Difference: -2.0138e+06
