@@ -1,0 +1,3 @@
+/home/chantelle/Work/CSE_Primer/apfelschorle/c_project/cmake-build-debug/CMakeFiles/c_project.dir
+/home/chantelle/Work/CSE_Primer/apfelschorle/c_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chantelle/Work/CSE_Primer/apfelschorle/c_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
